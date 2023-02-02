@@ -1,0 +1,164 @@
+.pure-button {
+  border-radius: 8px;
+}
+
+.pure-form input[type=text] {
+  border-radius: 8px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  padding: 2em 3em;
+  border-radius: 8px;
+
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+h1.title {
+  margin: 0;
+}
+.code-form {
+  margin: 3em 0;
+}
+.code-form input {
+  width: 100%;
+
+  text-align: center;
+}
+.code-form button {
+  margin-top: 1em;
+  width: 100%;
+}
+
+.device-id {
+
+  margin: 3em 0;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+
+  padding: 0.5em;
+  font-size: 0.825rem;
+  color: #757575;
+  border: 1px solid #757575;
+  border-radius: 8px;
+}
+
+.info {
+  margin-top: 3em;
+}
+
+.info p {
+
+  margin: 0;
+}
+
+.btn-accept-call {
+  width: 100%;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-top: 1em;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid #3182ce;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  4.9% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  5% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+.bars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.bar {
+  background: #52467b;
+  bottom: 1px;
+  height: 3px;
+  width: 10px;
+  margin: 0px 4px;
+  border-radius: 5px;
+  animation: sound 0ms -600ms linear infinite alternate;
+}
+@keyframes sound {
+  0% {
+     opacity: .35;
+      height: 10px; 
+  }
+  100% {
+      opacity: 1;       
+      height: 50px;        
+  }
+}
+
+.bar:nth-child(1)  { left: 1px; animation-duration: 474ms; }
+.bar:nth-child(2)  { left: 15px; animation-duration: 433ms; }
+.bar:nth-child(3)  { left: 29px; animation-duration: 407ms; }
+.bar:nth-child(4)  { left: 43px; animation-duration: 458ms; }
+.bar:nth-child(5)  { left: 57px; animation-duration: 400ms; }
+
+.flex-center {
+  display: flex;
+
+  justify-content: center;
+  gap: 1em;
+}
+
+.audio-controls audio {
+  display: block;
+
+  margin-top: 1em;
+}
